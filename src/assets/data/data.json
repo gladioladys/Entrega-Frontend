@@ -1,0 +1,80 @@
+{
+	"name": "Gladis Battezzato",
+	"backimage": "https://png.pngtree.com/thumb_back/fw800/back_pic/00/05/83/215627a256f10e7.jpg",
+	"image": "../../../assets/images/foto_gla.jpg",
+	"position": "Web Developer",
+    "company": {
+        "name": "CONICET",
+        "img": "https://convocatorias.conicet.gov.ar/wp-content/uploads/logo-CONICET_opt.png",
+        "url": "#"
+    },
+    "school": {
+        "name": "Universidad de Buenos Aires",
+        "img": "https://inerciacero.files.wordpress.com/2011/07/logo-uba.png",
+        "url": "#"
+    },
+    "ubication": "Rosario (Argentina)",
+    "about": "Programadora Full Stack con una amplia experiencia en el uso de tecnologias para la resolusion de Problemas mediante sistemas de software",
+    "experience": [{
+        "position": "Backend Developer",
+        "company": "Pixar",
+        "img": "https://media-exp2.licdn.com/dms/image/C560BAQEMmK1Jbm_29A/company-logo_200_200/0/1570832731596?e=2147483647&amp;v=beta&amp;t=5nQ7EPzpMEdkoPpxHuUGblG6wItLkdK0WipBuODdEdQ",
+        "mode": "Jornada Parcial",
+        "start": "mar 2019",
+        "end": "actalidad",
+        "timeElapsed": "2 anios y 6 meses"
+    }],
+    "education": [{
+        "school": "UTN",
+        "title": "Ingenieria",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuCngM7K9J3JwsnTbRcjmPL1GwbunNO1us252fG0AMM408e3zrYt9mWRRyj7QQfp43pPM&usqp=CAU",
+        "career": "Sistemas Computacionales",
+        "score": "0",
+        "start": "2019",
+        "end": "2021"
+    },
+    {
+        "school": "Centro de Ensenanza Tecnica Industrial",
+        "title": "Tecnologo",
+        "img": "",
+        "career": "Desarrollo de Software",
+        "score": "82",
+        "start": "2012",
+        "end": "2014"
+    },
+    {
+        "school": "Escuela Secundaria Tecnica",
+        "title": "Tecnico",
+        "img": "",
+        "career": "Electronica, Comunicacion y Sistemas de Control",
+        "score": "0",
+        "start": "2012",
+        "end": "2014"
+    }
+    ],
+    "aptitudes": [{
+        "name": "Resolucion de Problemas",
+        "progress": "75",
+        "confirms": "2",
+        "confirmsNames": [{
+            "name":"Gladis Battezzato"
+        }]
+    },
+    {
+        "name": "Disenio de Sistemas",
+        "progress": "75",
+        "confirms": "3",
+        "confirmsNames": [{
+            "name":"Gladis Battezzato"
+        }]        
+    }
+    ],
+    "achivements": [{
+        "name": "Huaro App"
+        },
+        {
+        "name": "Lanterns 19/09"
+        }        
+    ]
+
+}

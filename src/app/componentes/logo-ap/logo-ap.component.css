@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoAP{
+    width: 150px;
+}
+#logoGB{max-height: 40px;
+    align-self:center;
+}
+a img {
+    width: 50px;
+    margin-left: 5px;
+}
+.btn {
+    border-width: medium;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*  Prueba Para notebook */
+/* @media (min-width:576px) {
+    .pruebavh{    
+        height: 15vh;
+    }
+} */
+/*  Para celular */
+@media (max-width:575px) {
+    .container{    
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+}

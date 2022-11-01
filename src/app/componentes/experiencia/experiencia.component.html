@@ -1,0 +1,52 @@
+<a name="link-exp"></a>
+<div class="row" [ngStyle]="{'border-color': color1}" >
+    <h1>Experiencia Laboral</h1>
+
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <!-- Opcion 1 : Usando Boton -->
+        <button type="button" class="btn btn-success" routerLink="/nuevaexp" *ngIf="isLogged">
+            Nueva Experiencia
+        </button>
+        <!-- Opcion 2 : Usando el icono del signo mas de FontAwesone -->
+        <!-- <div class="btn-edit">
+            <a a routerLink="/nuevaexp" title="Agregar Experiencia" > <fa-icon [icon]="faPlus"></fa-icon></a>
+        </div> -->
+    </div>
+
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+    <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Experiencia of expe">
+                    <td>
+                        <h3>{{Experiencia.nombreE}}</h3>
+                    </td>
+                    <td>{{Experiencia.descripcionE}}</td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-primary" routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil-fill"></i>EDITAR</button>
+                    </td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill"></i>BORRAR</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <ul>
+            <li>
+                <h1>Trabajo1</h1> - <h3>(years)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis dolorum sed? Iste esse omnis excepturi amet nulla pariatur quos, alias expedita commodi corporis et asperiores eos, minima repellat iusto?</p>
+            </li>
+            <li>
+                <h1>Trabajo2</h1> - <h3>(years)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis dolorum sed? Iste esse omnis excepturi amet nulla pariatur quos, alias expedita commodi corporis et asperiores eos, minima repellat iusto?</p>
+            </li>
+            <li>
+                <h1>Trabajo3</h1> - <h3>(years)</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis dolorum sed? Iste esse omnis excepturi amet nulla pariatur quos, alias expedita commodi corporis et asperiores eos, minima repellat iusto?</p>
+            </li>
+        </ul> -->
+
+    </div>
+</div>

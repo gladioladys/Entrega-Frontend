@@ -1,0 +1,46 @@
+<!-- <div id="info-datos">
+    <div id="info-acciones">
+        <button class="btn btn-primary" type="button">Sobre mi</button>
+        <span><button type="button" class="btn btn-light">Educacion</button></span>
+        <span><button type="button" class="btn btn-light">Experiencias</button></span>
+        <span><button type="button" class="btn btn-light">Habilidades</button></span>
+        <span><button type="button" class="btn btn-light">Proyectos</button></span>
+    </div>
+</div> -->
+<nav ngxNavbarDynamicExpand class="navbar-light bg-light">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">
+            <img [src]="persona.imgLogo" width="190" height="40" alt="GB">
+        </span> 
+        <!-- <a class="navbar-brand" href="#">Bootstrap 5</a> -->
+        <button class="navbar-toggler" type="button" (click)="collapse.toggle()" aria-controls="main-nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="
+            navbar-toggler-icon
+            d-flex
+            align-items-center
+            justify-content-center
+          ">
+            </span>
+        </button>
+        <ngx-navbar-collapse id="main-nav" #collapse="ngxNavbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#link-edu">Educacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#link-exp">Experiencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#link-hab">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#link-pro">Proyectos</a>
+                </li>
+            </ul>
+        </ngx-navbar-collapse>
+    </div>
+</nav>

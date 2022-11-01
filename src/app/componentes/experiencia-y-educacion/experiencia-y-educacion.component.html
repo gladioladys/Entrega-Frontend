@@ -1,0 +1,104 @@
+<div class="card mat-card">
+    <div id="experience">
+        <div class="card-titles">
+            <h2>Experiencias</h2>
+            <div class="btn-edit">
+                <a href="#" class="btn-right" title="agregar" > <i class="fa fa-plus"></i></a>
+            </div>
+        </div>    
+        <div>
+            <ul class="items-list">
+                <li>
+                    <div class="data-container">
+                      <a href="#" title="">
+                        <div class="logo-image-container">
+                            <img 
+                            class="logo-image"
+                            src="" alt=""
+                            />
+                        </div>
+                        <div class="list-info">
+                            <div>
+                                <h3>Backend Developer</h3>
+                                <p>Pixar - <span>Jornada Parcial</span></p>
+                                <h4>mar 2019 - actalidad - 2 anios y 6 meses</h4>
+                                <h4>Rosario, Argentina</h4>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="data-control">
+                        <div class="btn-edit">
+                            <a href="#" class="btn-right" title="editar" > <i class="fa fa-pen"></i></a>
+                            <!-- <a href="#" class="btn-right" title="eliminar" target="_blank">
+                                    <i class="fa fa-trash-alt fa-lg"></i> </a>  -->      
+                        </div>                   
+                    </div>            
+                </li>                  
+            </ul>
+        </div>
+    </div>
+    <div id="education">
+        <div class="card-titles">
+            <h2>Educacion</h2> 
+            <div class="btn-edit">
+                <a href="#" class="btn-right" title="agregar" > <i class="fa fa-plus"></i></a>
+            </div>
+        </div>
+        <div>
+            <ul class="items-list">
+                <li *ngFor="let educacion of educacionList">
+                    <div class="data-container">
+                        <a href="#">
+                            <div class="logo-image-container">
+                                <img 
+                                    class="logo-image" 
+                                    [src]="educacion.img" alt="" 
+                                />
+                            </div>
+                            <div class="list-info">
+                                <div>
+                                    <h3>{{educacion.school}}</h3>
+                                    <p>{{educacion.career}}</p>
+                                    <p><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="data-control">
+                        <div class="btn-edit">
+                            <a href="#" class="btn-right" title="editar"><i class="fa fa-pen"></i></a>
+                            <a href="#" class="btn-right" title="eliminar" target="_blank"><i class="fa fa-trash-alt fa-lg"></i></a>        
+                        </div>                   
+                    </div>
+                </li>
+                <!-- <li>
+                    <div class="data-container">
+                        <a href="#">
+                            <div class="logo-image-container">
+
+                            </div>
+                            <div class="list-info">
+                                <div>
+                                    <h3>Centro de Ensenanza Tecnica Industrial</h3>
+                                    <p>Tecnologo, Desarrollo de Software, 82</p>
+                                    <p>2012 - 2014</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="data-control">
+                        <div class="btn-edit">
+                            <a href="#" class="btn-right" title="editar">
+                                <i class="fa fa-pen"></i></a>
+                                <a href="#" class="btn-right" title="eliminar" target="_blank">
+                                    <i class="fa fa-trash-alt fa-lg"></i>
+                            </a>        
+                        </div>                   
+                    </div>
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+</div>

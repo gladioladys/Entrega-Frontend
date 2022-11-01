@@ -1,0 +1,149 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.mat-card#first-card{
+    padding: 0
+}
+#info{
+    padding: 16px;
+}
+
+.data-control{
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    text-align: end;
+}
+div.btn-edit{
+    display: flex;
+    align-self: flex-end;
+}
+.btn-right{
+    display: flex;
+    align-self: flex-end;
+}
+.fa-button,.fa{
+    color: black;
+    display: block;
+    height: 2.4rem;
+    width: 2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 50%;
+    background: white ;
+}
+.fa-button:hover,.fa:hover{
+    background: gray;
+}
+div#profile-background{
+    display: flex;
+    z-index: 1;
+}
+div#profile-background img{
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    box-shadow: 3px 3px 5px whitesmoke;
+    margin-top: -90px;
+    margin-left: 60px; 
+    z-index: 1;
+}
+div#info-img{
+    display: flex;
+}
+div#info-actions{
+    display: flex; 
+    align-self: flex-start;
+    /* justify-content: space-around; */
+    /* margin-top: 5px; */
+}
+div#info-actions span button{
+    margin-left: 5px;
+}
+/* div#info-data div{ */
+   /* margin-top: 5px; */
+/* } */
+div#info-contact{
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.25; */
+    /* word-wrap: break-word; */
+    /* word-break: break-word; */
+}
+div#info-contact span a{
+    color: #0a66c2;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+div#info-company{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div#info-data{
+    display: flex;
+    justify-content: space-between;
+}
+div#info-data h1{
+    font-size: 1.8rem;
+    display: inline;
+    font-weight: 500;
+    line-height: 1.25;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+div#info-data ul#info-details{
+    width: 232px;
+    list-style: none;
+    flex-shrink: 0;
+}
+div#info-data ul#info-details li a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+div#info-data ul#info-details li a h2{
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: center;
+    vertical-align: baseline;
+}
+div#info-data ul#info-details li a img{
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    margin-right: 8px;
+}
+ul.items-list {
+    list-style: none inside;
+}
+ul.items-list li {
+    display: flex;
+    margin: 10 px 0;
+}
+ul.items-list li div.data-container {
+    flex-grow: 1;
+}
+ul.items-list li div.data-container a {
+    display: flex;
+    color: black;
+}
+div#edit-acercade{
+    display:none;
+}
+div.card-titles{
+    display: flex;
+    justify-content: space-between;
+}
